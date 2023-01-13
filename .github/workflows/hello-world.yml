@@ -11,4 +11,4 @@ jobs:
         run: echo Hello, MMC!
         
       - name: Hello MMC
-        run: docker run hellow-world
+        run: kubectl apply -f .
