@@ -1,0 +1,14 @@
+name: MMC-Project
+on:
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: self-hosted
+    
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, MMC!
+        
+      - name: Hello MMC
+        run: docker run hellow-world
